@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.fa_custom {
+color:
+#FFFFF;
+text-align: right;
+}
+
+
+.btn {
+    display: inline-block;
+    margin: 0 0 10px 0;
+    padding: 3px 6px;
+    border: medium none;
+    background-color: #4ED17B;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: right;
+    text-decoration: none;
+    white-space: nowrap;
+    &:after {
+      content: attr(data-button-icon);
+      float: right;
+      padding-left: 1em;
+    }
+}
+
+
+
+h1 {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-text {
+  font-size: 15px;
+  text-align: center;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid rgba(0,0,0,.125);
+    border-radius: .55rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
